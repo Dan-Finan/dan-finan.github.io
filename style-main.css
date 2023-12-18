@@ -1,0 +1,164 @@
+/* Body */
+body {
+    font-family: 'Saira' !important;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Background Colour */
+#main-background {
+    background: linear-gradient(-45deg, #ee7752, #f6da61, #6200ea, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.bg-gradient {
+    background-image: var(--bs-gradient);
+}
+
+/* Navigation Links */
+.btn-white {
+    color: rgb(0, 0, 0) !important;
+    border-color: rgb(0, 0, 0) !important;
+}
+
+.btn-white:hover, .btn-white:focus {
+    color: rgb(0, 0, 0) !important;
+    border-color: rgb(0, 0, 0) !important;
+    background-color: rgba(0, 0, 0, 0.1) !important; /* Optional: slight background color change on hover/focus */
+}
+
+.nav-menu-right .nav-link {
+    text-align: right;
+}
+
+.nav-menu-right .nav-item {
+    width: 100%;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Example shadow */
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    color: white;
+}
+
+.navbar-light .navbar-toggler {
+    border: solid 1px;
+    border-color: white;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.img-shadow {
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.4));
+}
+
+/* Images */
+.responsive-image {
+    width: 100%; /* Makes the image take up 100% of the parent container's width */
+    height: auto; /* Keeps the image's aspect ratio intact */
+}
+
+.scale-on-hover img {
+    transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.scale-on-hover img:hover {
+    transform: scale(1.05); /* Increase the size by 5% on hover */
+}
+
+.scale-on-hover-social img {
+    transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.scale-on-hover-social img:hover {
+    transform: scale(1.55); /* Increase the size by 5% on hover */
+}
+@media (max-width: 767px) {
+    #main-logo {
+      max-width: 250px;
+      height: auto;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    #main-logo {
+      max-width: 350px;
+      height: auto;
+    }
+  }
+  
+
+/* Posts  */
+#custom-category-color {
+    color: #6200ea !important;
+    text-decoration: none;
+    display: inline;
+}
+
+.text-muted {
+    display: inline; /* Ensures the span is inline */
+}
+
+.featured-post-background {
+    background: linear-gradient(-45deg, #000000, #7a7a7a, #585858, #0a0a0a);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.scale-container-on-hover {
+    transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.scale-container-on-hover:hover {
+    transform: scale(1.05); /* Increase the size by 5% on hover */
+}
+
+#featured-h1 {
+    color: #f6da61;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Example shadow */
+}
+#featured-continue a {
+    color: #f6da61!important;
+    font-weight: bolder!important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)!important;
+    text-decoration: none; /* Example shadow */
+}
