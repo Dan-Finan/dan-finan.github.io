@@ -1,4 +1,4 @@
-// Page Load
+/* Page Load
 window.onload = function() {
     document.getElementById("content-main-about-section").hidden = true
 };
@@ -16,3 +16,4 @@ function show_about() {
     document.getElementById('content-main-home').hidden = true
     document.getElementById("content-main-about-section").hidden = false
  }
+ */
