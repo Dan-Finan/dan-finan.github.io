@@ -6,6 +6,16 @@ body {
     animation-fill-mode: forwards;
 }
 
+@media (min-width: 576px) {
+    /* Apply styles only if the screen size is not a mobile device */
+    #content-main-home{
+        max-width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
